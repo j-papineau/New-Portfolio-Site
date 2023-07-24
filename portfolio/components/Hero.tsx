@@ -23,7 +23,7 @@ function Hero({}: Props) {
         width={400}></Image>
 
         <div className='z-20'>
-          <h2 className='text-xl uppercase font-extrabold text-slate-500 tracking-[10px]'>Joel Papineau | Dev</h2>
+          <h2 className='text-xl uppercase font-extrabold text-slate-300 tracking-[10px] pb-4'>Joel Papineau | Full-Stack Dev</h2>
           <h1 className='text-5xl lg:text-6xl'>
               <p className='text-xl text-slate-400 font-serif font-semibold'>I Code For:</p>
               <span className='text-slate-500 tracking-[4px]  mr-2'>

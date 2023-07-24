@@ -57,7 +57,7 @@ function Header({}: Props) {
             network='email'
             fgColor='gray'
             bgColor='transparent'/>
-            <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Shoot me an email!</p>
+            <p className=' hidden md:inline-flex text-sm text-gray-400'>Shoot me an email!</p>
         </motion.div>
     </header>
   )
