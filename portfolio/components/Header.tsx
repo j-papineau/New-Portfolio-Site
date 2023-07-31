@@ -1,13 +1,18 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
-import { motion } from "framer-motion";
+import { motion, useScroll} from "framer-motion";
 
 type Props = {}
 
 function Header({}: Props) {
-  return (
+ 
+    const {scrollYProgress} = useScroll();
+ 
+    return (
+
     <header className='sticky top-0 flex items-start justify-between max-w-3xl mx-auto
-    z-20 xl:items-center p-5'>
+    z-20 xl:items-center p-5'>   
+
         <motion.div 
 
         initial={{
@@ -33,6 +38,7 @@ function Header({}: Props) {
             <SocialIcon url="https://www.linkedin.com/in/joel-papineau-58a4801b4"
             fgColor='gray'
             bgColor='transparent'/>
+
         </motion.div>
 
         <motion.div 
@@ -60,6 +66,7 @@ function Header({}: Props) {
             <p className=' hidden md:inline-flex text-sm text-gray-400'>Shoot me an email!</p>
         </motion.div>
     </header>
+    
   )
 }
 

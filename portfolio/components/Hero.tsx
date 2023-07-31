@@ -16,7 +16,7 @@ function Hero({}: Props) {
     // });
 
   return (
-    <div className='h-screen flex flex-col space-y-4 items-center justify-center text-center overflow-hidden'>
+    <div className='h-[120vh] flex flex-col space-y-4 items-center justify-center text-center overflow-hidden'>
         <BackgroundAnimation/>
         <Image className="relative rounded-full h-32 w-32 mx-auto object-cover" src="/images/logo.jpg" alt="logo"
         height={400}
@@ -26,7 +26,7 @@ function Hero({}: Props) {
           <h2 className='text-xl uppercase font-extrabold text-slate-300 tracking-[10px] pb-4'>Joel Papineau | Full-Stack Dev</h2>
           <h1 className='text-5xl lg:text-6xl'>
               <p className='text-xl text-slate-400 font-serif font-semibold'>I Code For:</p>
-              <span className='text-slate-500 tracking-[4px]  mr-2'>
+              <span className='text-slate-300 tracking-[4px]  mr-2'>
                   <Typewriter
                   loop
                   cursor
