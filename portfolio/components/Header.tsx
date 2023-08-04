@@ -33,10 +33,10 @@ function Header({}: Props) {
 
             {/* Icons */}
             <SocialIcon url="https://github.com/j-papineau" 
-            fgColor='gray' 
+            fgColor='white' 
             bgColor='transparent'/>
             <SocialIcon url="https://www.linkedin.com/in/joel-papineau-58a4801b4"
-            fgColor='gray'
+            fgColor='white'
             bgColor='transparent'/>
 
         </motion.div>
@@ -57,13 +57,13 @@ function Header({}: Props) {
         transition={{
             duration:1
         }}
-        className='flex flex-rox items-center text-gray-300 cursor-pointer'>
+        className='flex flex-rox items-center text-gray-200 cursor-pointer'>
             <SocialIcon
             className='cursor-pointer'
             network='email'
-            fgColor='gray'
+            fgColor='white'
             bgColor='transparent'/>
-            <p className=' hidden md:inline-flex text-sm text-gray-400'>Shoot me an email!</p>
+            <p className=' hidden md:inline-flex text-sm text-gray-200'>Shoot me an email!</p>
         </motion.div>
     </header>
     
