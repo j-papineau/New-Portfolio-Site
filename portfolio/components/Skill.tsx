@@ -24,7 +24,7 @@ const Skill = ({directionLeft, srcURL, years}: Props) => {
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in
         group-hover:bg-white h-24 w-24 lg:h-32 lg:w-32 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
-                <p className='text-xl font-bold text-slate-800 opacity-100'>{years} yr.</p>
+                <p className='text-m font-bold text-slate-800 opacity-100'>{years}</p>
             </div>
         </div>
     </div>
