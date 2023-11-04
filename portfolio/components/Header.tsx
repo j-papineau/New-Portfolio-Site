@@ -62,8 +62,15 @@ function Header({}: Props) {
             className='cursor-pointer'
             network='email'
             fgColor='white'
-            bgColor='transparent'/>
-            <p className=' hidden md:inline-flex text-sm text-gray-200'>Shoot me an email!</p>
+            bgColor='transparent'
+            url='/contact'/>
+            {/* <p className=' hidden md:inline-flex text-sm text-gray-200'>Shoot me an email!</p> */}
+            <SocialIcon
+            className='cursor-pointer'
+            fgColor='white'
+            bgColor='transparent'
+            label="Resume"/>
+            <p className='hidden md:infline-flex text-sm text-gray-200'>Download My Resume</p>
         </motion.div>
     </header>
     

@@ -21,3 +21,23 @@
     @apply p-4 px-6 py-2 border border-transparent rounded-full font-medium uppercase text-sm tracking-widest text-slate-500 transition-all hover:border-slate-200 hover:text-slate-50
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #14000a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
