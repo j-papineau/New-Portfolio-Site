@@ -13,6 +13,10 @@ const Experience = (props: Props) => {
   const adrSkills = ["js.png", "php.png", "innoDB.png", "next.png", "react.png"]
   const targetPoints = ["Receive and document incoming freight shipments", "Schedule inbound trailers and ensure timely unload \
   ", "Manage vendor relations including receiving merchandise, setting seasonal sales planners, and settle product inventory"]
+  const kbiPoints = ["Service and maintain Coca-Cola Machines (Freestlye Machine, FreeFlow Fountain, etc)", "Fix and diagnose various problems with beverage \
+  equipment of various manufactureres including: Hojisaka, Coke, Pepsi, BevTech, Epsilon, etc.", "Installing and servicing McDonald's ABS systems"];
+  const futuresPoints = ["Install and service commercial/residential equipment from panels to recipticals", "Learn and understand electrical plans \
+  from various manufacturers (Duke, Siemanns) "]
 
   return (
     <div 
@@ -44,12 +48,18 @@ const Experience = (props: Props) => {
             hasSkillsSection={false}
             imgURL={"/images/kbi.jpeg"}
             title={"Beverage and CO2 Technician"}
-            company={"Ken's Beverage Inc."}/>
+            company={"Ken's Beverage Inc."}
+            start={"-"}
+            end={"-"}
+            points={kbiPoints}/>
             <ExperienceCard
             hasSkillsSection={false}
             imgURL={"/images/futures.jpeg"}
             title={"Commercial/Residential Electrical Apprentice"}
             company={"Futures Electrical"}
+            start={"April 2020"}
+            end={"August 2021"}
+            points={futuresPoints}
             />
         </div>
     </div>
