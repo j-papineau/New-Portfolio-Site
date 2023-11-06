@@ -25,7 +25,7 @@ const Experience = (props: Props) => {
         <h3 className='pt-20 top-24 uppercase tracking-[10px] text-slate-300 text-4xl'>Experience</h3>
       </div>
         
-        <div className='w-[80%] h-[70%] flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
+        <div className='w-[100%] h-[80%] flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
             <ExperienceCard 
             hasSkillsSection={true}
             imgURL={"/images/adr.png"}

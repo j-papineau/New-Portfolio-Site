@@ -73,7 +73,7 @@ function Header({}: Props) {
             {/* <Button className='border border-white p-2 rounded-md' color="secondary">
               Return to Top
             </Button> */}
-            <button className='heroButton'>Return to Top</button>
+            <button className='heroButton text-white'>Return to Top</button>
             </Link>
             
         </motion.div>
