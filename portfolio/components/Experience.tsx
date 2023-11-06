@@ -8,8 +8,8 @@ type Props = {}
 
 const Experience = (props: Props) => {
 
-  const adrPoints = ["Design and Maintain Website Functionality On Wordpress.com Platform", "Develop and maintain tools for digital advertisement \
-  platform monitoring, decisionmaking, and planning", "Embedded design for PCB structures using VHDL and EAGLE"];
+  const adrPoints = ["Design and Maintain Website Functionality On Wordpress.com Platform", "Perform daily and quarterly duties to ensure success on Google Ads Platform", "Get involved with creative ad work like blogs and strategies to generate organic traffic to sites", "Make sense of analytics numbers, aiding in decisionmaking \
+  by digesting figures (Cost per Lead, Cost per Click, Return on Spend, etc.) "];
   const adrSkills = ["js.png", "php.png", "innoDB.png", "next.png", "react.png"]
   const targetPoints = ["Receive and document incoming freight shipments", "Schedule inbound trailers and ensure timely unload \
   ", "Manage vendor relations including receiving merchandise, setting seasonal sales planners, and settle product inventory"]
@@ -29,8 +29,8 @@ const Experience = (props: Props) => {
             <ExperienceCard 
             hasSkillsSection={true}
             imgURL={"/images/adr.png"}
-            title={"Embedded Design Engineer"} 
-            company={"ADR, LLC."}
+            title={"Digital Marketing Support"} 
+            company={"ADR"}
             start={"April 04, 2023"} 
             end={"Current"}
             points= {adrPoints} 
