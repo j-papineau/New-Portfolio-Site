@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className='bg-[rgb(20,0,10)] text-white h-screen  overflow-hidden z-0 scroll-smooth'>
+    <main className='bg-[rgb(20,0,10)] text-white h-screen  overflow-y-scroll overflow-x-hidden z-0 scroll-smooth'>
       
         <Header/>
       <section id='hero' className='snap-center'>
