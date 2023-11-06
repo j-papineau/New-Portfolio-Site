@@ -1,6 +1,10 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion, useScroll} from "framer-motion";
+import {Button, ButtonGroup} from "@nextui-org/react";
+import Link from 'next/link'
+
+
 
 type Props = {}
 
@@ -65,12 +69,13 @@ function Header({}: Props) {
             bgColor='transparent'
             url='/contact'/>
             {/* <p className=' hidden md:inline-flex text-sm text-gray-200'>Shoot me an email!</p> */}
-            <SocialIcon
-            className='cursor-pointer'
-            fgColor='white'
-            bgColor='transparent'
-            label="Resume"/>
-            <p className='hidden md:infline-flex text-sm text-gray-200'>Download My Resume</p>
+            <Link href="#hero">
+            {/* <Button className='border border-white p-2 rounded-md' color="secondary">
+              Return to Top
+            </Button> */}
+            <button className='heroButton'>Return to Top</button>
+            </Link>
+            
         </motion.div>
     </header>
     

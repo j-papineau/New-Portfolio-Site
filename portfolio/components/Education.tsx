@@ -17,7 +17,7 @@ const Education = (props: Props) => {
         <h3 className='pt-20 top-24 uppercase tracking-[10px] text-slate-300 text-4xl'>Education</h3>
       </div>
         
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
+        <div className='w-[80%] flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
             <ExperienceCard 
             hasSkillsSection={false}
             imgURL={"/images/unf.png"}
