@@ -10,13 +10,7 @@ type Props = {
 const Skill = ({directionLeft, srcURL, years}: Props) => {
   return (
     <div className='group relative flex cursor-pointer '>
-        <motion.img 
-        initial={{
-            x: directionLeft ? -100 : 100,
-            opacity:0
-        }}
-        transition={{}}
-        whileInView={{opacity: 1, x: 0}}
+        <img 
         src={srcURL}
         className='rounded-full border-slate-600 object-cover w-24 h-24 lg:w-32 lg:h-32 
         filter group-hover:grayscale transition duration-300 ease-in-out'

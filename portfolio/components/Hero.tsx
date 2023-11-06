@@ -25,13 +25,13 @@ function Hero({}: Props) {
         <div className='z-20'>
           <h2 className='text-xl uppercase font-extrabold text-slate-300 tracking-[10px] pb-4'>Joel Papineau | Full-Stack Dev</h2>
           <h1 className='text-5xl lg:text-6xl'>
-              <p className='text-xl text-slate-400 font-serif font-semibold'>I Code For:</p>
+              <p className='text-xl text-slate-400 font-serif font-semibold'>Writing Software For:</p>
               <span className='text-slate-300 tracking-[4px]  mr-2'>
                   <Typewriter
                   loop
                   cursor
                   cursorStyle="_"
-                  words={["Myself", "The World", "Your Company"]}
+                  words={["Machine Learning", "eCom", "Robotics", "Computer Vision", "Embedded Control"]}
                   />
               </span>
           </h1>

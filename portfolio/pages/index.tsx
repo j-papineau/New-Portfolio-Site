@@ -7,25 +7,33 @@ import About from '@/components/About'
 import ScrollProgress from '@/components/ScrollProgress'
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
+import Skills2 from '@/components/Skills2'
+import Projects from '@/components/Projects'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className='bg-[rgb(20,0,10)] text-white h-screen snap-y  overflow-scroll z-0 scroll-smooth'>
+    <main className='bg-[rgb(20,0,10)] text-white h-screen  overflow-scroll z-0 scroll-smooth'>
       
         <Header/>
       <section id='hero' className='snap-center'>
         <Hero/>
       </section>
-      <section id="about" className='snap-center'>
-        <About/>
-      </section>
-      <section id='skills' className='snap-start'>
+      <section id='Software Technology' className='snap-center'>
         <Skills/>
+      </section>
+      <section id='skills' className='snap-center'>
+        <Skills2/>
       </section>
       <section id='experience' className='snap-center'>
         <Experience/>
+      </section>
+      <section id='projects' className='snap-center'>
+        <Projects/>
+      </section>
+      <section id="about" className='snap-center'>
+        <About/>
       </section>
       
 
