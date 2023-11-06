@@ -9,6 +9,7 @@ import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
 import Skills2 from '@/components/Skills2'
 import Projects from '@/components/Projects'
+import Education from '@/components/Education'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,9 @@ export default function Home() {
       </section>
       <section id='skills' className='snap-center'>
         <Skills2/>
+      </section>
+      <section id='education' className='snap-center'>
+        <Education/>
       </section>
       <section id='experience' className='snap-center'>
         <Experience/>

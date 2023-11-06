@@ -40,7 +40,7 @@ const Experience = (props: Props) => {
             imgURL={"/images/targetlogo-6.jpeg"}
             title={"Receiving Expert"}
             company={"Target"}
-            start={"August 2021"}
+            start={"August 2022"}
             end={"April 2023"}
             points={targetPoints}
             />

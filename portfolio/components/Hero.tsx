@@ -18,7 +18,7 @@ function Hero({}: Props) {
   return (
     <div className='h-[120vh] flex flex-col space-y-4 items-center justify-center text-center overflow-hidden'>
         <BackgroundAnimation/>
-        <Image className="relative rounded-full h-32 w-32 mx-auto object-cover" src="/images/logo.jpg" alt="logo"
+        <Image className="relative rounded-full h-32 w-32 mx-auto object-cover" src="/images/headshot.jpg" alt="logo"
         height={400}
         width={400}></Image>
 
@@ -47,6 +47,9 @@ function Hero({}: Props) {
           </Link>
           <Link href="#experience">
             <button className='heroButton'>Experience</button>
+          </Link>
+          <Link href="#education">
+            <button className='heroButton'>Education</button>
           </Link>
           
           <Link href="#projects">

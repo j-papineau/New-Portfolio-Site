@@ -6,11 +6,11 @@ type Props = {}
 
 const Skills = (props: Props) => {
   return (
-    <div className='h-[105vh] flex relative flex-col text-center md:text-left xl:flex-row max-w-[1000px]
+    <div className=' flex h-[120vh] relative flex-col text-center md:text-left xl:flex-row max-w-[1000px]
     min-h-screen xl:px-10 justify-center xl:space-y-0 mx-auto items-center'>
-       <h3 className='absolute top-24 uppercase tracking-[10px] text-slate-300 text-4xl'>Other Skills and Knowledge</h3>
+       <h3 className='top-24 uppercase tracking-[10px] text-slate-300 text-4xl'>Other Skills and Knowledge</h3>
     
-        <h3 className='absolute top-36 uppercase tracking-[3px] text-slate-400 text-sm '>Technologies Used and Practical Skills</h3>
+        <h3 className='top-36 uppercase tracking-[3px] text-slate-400 text-sm pb-10'>Technologies Used and Practical Skills</h3>
     <div className='text-xl'>
         <ul className='list-disc text-gray-300'>
             <li className='tracking-widest'>Machine Learning w/ Python

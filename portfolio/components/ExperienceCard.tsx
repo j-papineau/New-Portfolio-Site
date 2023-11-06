@@ -20,7 +20,7 @@ const ExperienceCard = ( {title, start, end, company, imgURL, points, hasSkillsS
     <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
     w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-slate-800 p-10'>
       <img
-      className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover
+      className='w-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover
       object-center'
       src={imgURL}/>
 
