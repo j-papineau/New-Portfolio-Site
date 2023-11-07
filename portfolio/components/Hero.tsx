@@ -58,11 +58,14 @@ function Hero({}: Props) {
         </div>
 
         <div className="pt-5 z-20">
-          <Link href="/contact">
+          {/* <Link href="/contact">
             <button className='heroButton' disabled>Contact Me</button>
+          </Link> */}
+          <Link href="/jPapineauResume.pdf" target='_blank'>
+            <button className='heroButton'>View Resume</button>
           </Link>
-          <Link href="/contact">
-            <button className='heroButton' disabled>Download Resume</button>
+          <Link href="/jPapineauResume.pdf" download={"jPapineauResume.pdf"} target='_blank'>
+            <button className='heroButton'>Download Resume</button>
           </Link>
         </div>
     

@@ -1,7 +1,6 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion, useScroll} from "framer-motion";
-import {Button, ButtonGroup} from "@nextui-org/react";
 import Link from 'next/link'
 
 
