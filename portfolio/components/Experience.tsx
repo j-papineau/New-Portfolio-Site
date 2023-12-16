@@ -26,7 +26,7 @@ const Experience = (props: Props) => {
       </div>
         
         <div className='w-[100%] h-[80%] flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
-            <ExperienceCard 
+            {/* <ExperienceCard 
             hasSkillsSection={true}
             imgURL={"/images/adr.png"}
             title={"Digital Marketing Support"} 
@@ -34,7 +34,7 @@ const Experience = (props: Props) => {
             start={"April 04, 2023"} 
             end={"Current"}
             points= {adrPoints} 
-            skillsURLs={adrSkills}/>
+            skillsURLs={adrSkills}/> */}
             <ExperienceCard
             hasSkillsSection={false}
             imgURL={"/images/targetlogo-6.jpeg"}
